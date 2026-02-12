@@ -1,0 +1,26 @@
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 0px 30px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    flex-wrap: wrap;
+}
+ul,li,span{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+    font-weight:bold;
+    position: sticky;
+    top: 0px;
+}
+input{
+    border-radius: 5px 5px 2px 2px;
+    border: 0.3px solid white;
+}
+input::placeholder{
+    color: rgb(7, 82, 7);
+}

@@ -1,0 +1,11 @@
+.single-page-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+}
+.single-page-body{
+    border: 1px solid red;
+
+}

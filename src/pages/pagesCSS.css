@@ -1,0 +1,35 @@
+
+.menpage-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    gap: 5px;
+    margin: 1px 20px;
+}
+.menpage-body{
+    text-align: center;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+.menpage-body:hover{
+    transform: translateY(-5px);
+}
+img{
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    padding-top: 10px; 
+}
+.menpage-body h2{
+    font-size: 16px;
+    margin: 1px 2px;
+    padding: 0px;
+}
+.menpage-body h3{
+    font-size: 16px;
+    margin: 1px 0px;
+}
+a{
+    text-decoration: none;
+}

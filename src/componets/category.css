@@ -1,0 +1,11 @@
+.box-section{
+    display: flex;
+    gap: 30px;
+    background-color: rgb(7, 7, 73);
+    color: white;
+    padding: 0px 50px;
+    margin: 5px 0px;
+    position: sticky;
+    top: 80px;
+    z-index: 1000;
+}

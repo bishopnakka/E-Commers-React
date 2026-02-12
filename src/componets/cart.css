@@ -1,0 +1,31 @@
+html{
+    background-color: rgba(228, 207, 180, 0.367);
+}
+.cart-section{
+    margin: 0px 100px;
+    padding: 10px;
+}
+.cart-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid grey;
+    margin: 2px 250px;
+    padding: 0px 10px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.cart-name{
+    color: rgb(150, 223, 132);
+}
+.cart-price{
+    color:rgb(4, 111, 4)
+}
+.cart-button{
+    border: none;
+    background-color: rgb(212, 212, 212);
+    color: red;
+}
