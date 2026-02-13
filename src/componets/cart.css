@@ -33,6 +33,22 @@
     font-family: 'Courier New', Courier, monospace;
     color: rgba(1, 34, 62, 0.386);
 }
+.cart-checkout-btn{
+    margin: 3px 0px;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+}
+.cart-checkout-btn button{
+    border: none;
+    height: 20px;
+    outline: none;
+}
+.cart-checkout-btn button:focus{
+    border: 3px solid rgba(72, 140, 243, 0.666);
+    height: 20px;
+    outline: none;
+}
 @media (max-width:480px) {
     .cart-section{
         margin: 1px 0px;
@@ -68,5 +84,15 @@
         font-size: 10px;
         font-weight: bolder;
 
+    }
+    .cart-checkout-btn{
+        margin:3px 100px;
+    }
+    .cart-checkout-btn button{
+        margin: auto;
+        text-align: center;
+        font-size: 10px;
+        padding: 5px;
+        color: rgb(66, 65, 65);
     }
 }

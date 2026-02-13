@@ -2,7 +2,7 @@
 .menpage-section{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    margin: 1px 10px;
+    margin: 1px 90px;
     gap: 5px;
     cursor:help;
 }
@@ -31,12 +31,12 @@ img{
 .menpage-body h2{
     font-size: 16px;
     margin: 1px 2px;
-    padding: 0px;
+    padding: 3px;
 }
-.menpage-body h3{
+/* .menpage-body h3{
     font-size: 16px;
     margin: 1px 0px;
-}
+} */
 a{
     text-decoration: none;
 }

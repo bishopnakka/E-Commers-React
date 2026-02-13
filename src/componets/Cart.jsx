@@ -2,6 +2,7 @@ import React from 'react'
 import './cart.css'
 import { useDispatch, useSelector } from 'react-redux'
 import { removeFromCart } from '../redux/ReduxSlice'
+import { Link } from 'react-router-dom'
 
 const Cart = () => {
     const cart=useSelector(state=>state.cart.items)
@@ -23,6 +24,11 @@ const Cart = () => {
                 </div>
             )
         })}
+           <div className='cart-checkout-btn'>
+            <Link to='/checkout'>
+                <button>Checkout</button>
+            </Link>
+            </div>
         
       
     </div>

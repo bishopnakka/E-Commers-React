@@ -1,0 +1,22 @@
+.checkout-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.checkout-body input{
+    background-color: rgba(0, 0, 255, 0.238);
+    width: auto;
+    height: 10px;
+}
+.checkout-body input:focus{
+    padding: 5px;
+    background-color: rgba(0, 0, 255, 0.495);
+    height: 8px;
+    outline: none;
+    padding: 9px;
+    border: 3px solid rgb(45, 74, 199);
+}
+.checkout-body h2{
+    color: rgb(1, 1, 77);
+}

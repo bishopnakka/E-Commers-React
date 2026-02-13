@@ -19,6 +19,7 @@ import MobileSingle from './singlepages/MobileSingle'
 import SpeakerSingle from './singlepages/SpeakerSingle'
 import Cart from './componets/Cart'
 import Home from './home/Home'
+import CheckoutPage from './componets/CheckoutPage'
 
 const App = () => {
   return (
@@ -44,6 +45,7 @@ const App = () => {
       <Route path='/mobile/:id' element={<MobileSingle/>}/>
 
       <Route path='/cart' element={<Cart/>}/>
+      <Route path='/checkout' element={<CheckoutPage/>}/>
     </Routes>    
    </div>
   )

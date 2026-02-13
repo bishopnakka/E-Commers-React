@@ -14,6 +14,10 @@ const SpeakerSingle = () => {
            <h1>item not found</h1>
         );
     }
+        const handleCart=()=>{
+            dispatch(addToCart(product))
+            navigate("/cart")
+        }
   return (
     <div className='single-page-section'>
         <div className='single-page-body'>
@@ -24,7 +28,7 @@ const SpeakerSingle = () => {
             <h2>{product.brand} {product.model}</h2>
             <h2 className='discription'>{product.description}</h2>
             <h1>{product.price}</h1>
-            <button className='single-page-btn' onClick={()=>{dispatch(addToCart(product))}}>add to cart</button>
+            <button className='single-page-btn' onClick={handleCart}>add to cart</button>
         </div>
     </div>
     </div>

@@ -47,7 +47,7 @@ input{
     width: 350px;
 }
 input::placeholder{
-    color: rgba(240, 191, 240, 0.59);
+    color: rgba(255, 254, 255, 0.59);
 }
 input:focus{
     background-color: rgb(27, 18, 94);
