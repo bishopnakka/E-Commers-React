@@ -1,6 +1,6 @@
 export const fridgeData = [{
         "id": "1",
-        "qty":"1",
+        "qty":1,
         "product": "Refrigerator",
         "image": "/assets/fridge/1.jpg",
         "brand": "LG",
@@ -11,7 +11,7 @@ export const fridgeData = [{
     },
     {
         "id": "2",
-        "qty":"1",
+        "qty":1,
         "product": "Refrigerator",
         "image": "/assets/fridge/2.jpg",
         "brand": "Samsung",
@@ -22,7 +22,7 @@ export const fridgeData = [{
     },
     {
         "id": "3",
-        "qty":"1",
+        "qty":1,
         "product": "Refrigerator",
         "image": "/assets/fridge/3.jpg",
         "brand": "Whirlpool",
@@ -33,7 +33,7 @@ export const fridgeData = [{
     },
     {
         "id": "4",
-        "qty":"1",
+        "qty":1,
         "product": "Refrigerator",
         "image": "/assets/fridge/4.jpg",
         "brand": "Frigidaire",
@@ -44,7 +44,7 @@ export const fridgeData = [{
     },
     {
         "id": "5",
-        "qty":"1",
+        "qty":1,
         "product": "Refrigerator",
         "image": "/assets/fridge/5.jpg",
         "brand": "KitchenAid",
@@ -55,7 +55,7 @@ export const fridgeData = [{
     },
     {
         "id": "6",
-        "qty":"1",
+        "qty":1,
         "product": "Refrigerator",
         "image": "/assets/fridge/6.jpg",
         "brand": "GE",
@@ -66,7 +66,7 @@ export const fridgeData = [{
     },
     {
         "id": "7",
-        "qty":"1",
+        "qty":1,
         "product": "Refrigerator",
         "image": "/assets/fridge/7.jpg",
         "brand": "Maytag",

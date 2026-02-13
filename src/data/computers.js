@@ -1,6 +1,6 @@
 export const computerData = [{
         "id": "1",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/12.jpg",
         "company": "Dell",
@@ -11,7 +11,7 @@ export const computerData = [{
     },
     {
         "id": "2",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/4.jpg",
         "company": "HP",
@@ -22,7 +22,7 @@ export const computerData = [{
     },
     {
         "id": "3",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/3.jpg",
         "company": "Apple",
@@ -33,7 +33,7 @@ export const computerData = [{
     },
     {
         "id": "4",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/11.jpg",
         "company": "Lenovo",
@@ -44,7 +44,7 @@ export const computerData = [{
     },
     {
         "id": "5",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/5.jpg",
         "company": "Acer",
@@ -55,7 +55,7 @@ export const computerData = [{
     },
     {
         "id": "6",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/6.jpg",
         "company": "Microsoft",
@@ -66,7 +66,7 @@ export const computerData = [{
     },
     {
         "id": "7",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/7.jpg",
         "company": "Asus",
@@ -77,7 +77,7 @@ export const computerData = [{
     },
     {
         "id": "8",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/8.jpg",
         "company": "Alienware",
@@ -88,7 +88,7 @@ export const computerData = [{
     },
     {
         "id": "9",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/9.jpg",
         "company": "HP",
@@ -99,7 +99,7 @@ export const computerData = [{
     },
     {
         "id": "10",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/10.jpg",
         "company": "Lenovo",
@@ -110,7 +110,7 @@ export const computerData = [{
     },
     {
         "id": "11",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/2.jpg",
         "company": "Dell",
@@ -121,7 +121,7 @@ export const computerData = [{
     },
     {
         "id": "12",
-        "qty":"1",
+        "qty":1,
         "product": "Computer",
         "image": "/assets/Computers/1.jpg",
         "company": "Acer",

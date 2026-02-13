@@ -11,14 +11,15 @@ const Cart = () => {
         {cart.map(item=>{
             return(
                 <div className='cart-body' key={item.id}>
-                    <div>
+                    <div className='cart-img'>
                         <img src={item.image} alt="" />
                     </div>
                     <div className='cart-name'>
-                        <h3>{item.brand}</h3>
+                        <h3>{item.brand || item.company}</h3>
                     </div>
-                    <div className='cart-price'><p>{item.price}</p></div>
-                    <button className='cart-button' onClick={()=>dispatch(removeFromCart(item.id))}>remove</button>
+                    <div className='cart-price'><p>${item.price}</p></div>
+                    <div className='cart-qty'><h5>({item.qty})</h5></div>
+                    <button className='cart-button' onClick={()=>dispatch(removeFromCart(item.id))}>-</button>
                 </div>
             )
         })}

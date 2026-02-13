@@ -1,11 +1,23 @@
 .box-section{
     display: flex;
-    gap: 30px;
-    background-color: rgb(7, 7, 73);
-    color: white;
-    padding: 0px 50px;
-    margin: 5px 0px;
+    gap: 50px;
+    background-color: rgb(15, 11, 105);
+    padding: 0px 20px;
     position: sticky;
     top: 80px;
     z-index: 1000;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.box-section h3{
+    color: rgb(155, 150, 218);
+}
+@media (max-width:480px) {
+    .box-section{
+        top: 250px;
+    }
+    .box-section h3{
+        font-size: 16px;
+    }
+
 }

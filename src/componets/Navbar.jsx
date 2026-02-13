@@ -11,11 +11,11 @@ const Navbar = () => {
     <div className='nav-section'>
       <div>
         <NavLink to='/' className='nav-home'>
-        <h1>home</h1>
+        <h1 className='home'>home</h1>
         </NavLink>
       </div>
 
-      <div>
+      <div className='nav-ul'>
         <ul>
          <li>support</li>
          <li>contact</li>
@@ -28,9 +28,9 @@ const Navbar = () => {
         <input type="text" placeholder='search products...' onChange={(e)=>{dispatch(setSearch(e.target.value))}}/>
       </div>
 
-      <div>
+      <div className='nav-cart'>
         <Link to='/cart'>
-        <span>Cart{cartItems.length}</span>
+        Cart <span>[{ cartItems.length}]</span>
         </Link>
       </div>
 

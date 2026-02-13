@@ -1,6 +1,6 @@
 export const acData = [{
         "id": "1",
-        "qty":"1",
+        "qty":1,
         "product": "Air Conditioner",
         "image": "/assets/Ac/1.jpg",
         "company": "LG",
@@ -11,7 +11,7 @@ export const acData = [{
     },
     {
         "id": "2",
-        "qty":"1",
+        "qty":1,
         "product": "AC Unit",
         "image": "/assets/Ac/2.jpg",
         "company": "Daikin",
@@ -22,7 +22,7 @@ export const acData = [{
     },
     {
         "id": "3",
-        "qty":"1",
+        "qty":1,
         "product": "Cooling System",
         "image": "/assets/Ac/3.jpg",
         "company": "Carrier",
@@ -33,7 +33,7 @@ export const acData = [{
     },
     {
         "id": "4",
-        "qty":"1",
+        "qty":1,
         "product": "Air Cooler",
         "image": "/assets/Ac/4.jpg",
         "company": "Honeywell",
@@ -44,7 +44,7 @@ export const acData = [{
     },
     {
         "id": "5",
-        "qty":"1",
+        "qty":1,
         "product": "Window AC",
         "image": "/assets/Ac/5.jpg",
         "company": "Whirlpool",
@@ -55,7 +55,7 @@ export const acData = [{
     },
     {
         "id": "6",
-        "qty":"1",
+        "qty":1,
         "product": "Smart AC",
         "image": "/assets/Ac/6.jpg",
         "company": "Nest",
@@ -66,7 +66,7 @@ export const acData = [{
     },
     {
         "id": "7",
-        "qty":"1",
+        "qty":1,
         "product": "Inverter AC",
         "image": "/assets/Ac/7.jpg",
         "company": "Mitsubishi",
@@ -77,7 +77,7 @@ export const acData = [{
     },
     {
         "id": "8",
-        "qty":"1",
+        "qty":1,
         "product": "Portable AC",
         "image": "/assets/Ac/8.jpg",
         "company": "Frigidaire",
@@ -88,7 +88,7 @@ export const acData = [{
     },
     {
         "id": "9",
-        "qty":"1",
+        "qty":1,
         "product": "Ducted AC",
         "image": "/assets/Ac/9.jpg",
         "company": "Lennox",
@@ -99,7 +99,7 @@ export const acData = [{
     },
     {
         "id": "10",
-        "qty":"1",
+        "qty":1,
         "product": "Wall-Mount AC",
         "image": "/assets/Ac/10.jpg",
         "company": "Panasonic",
@@ -110,7 +110,7 @@ export const acData = [{
     },
     {
         "id": "11",
-        "qty":"1",
+        "qty":1,
         "product": "Split AC",
         "image": "/assets/Ac/11.jpg",
         "company": "Haier",
@@ -121,7 +121,7 @@ export const acData = [{
     },
     {
         "id": "12",
-        "qty":"1",
+        "qty":1,
         "product": "Central AC",
         "image": "/assets/Ac/12.jpg",
         "company": "Trane",

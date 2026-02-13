@@ -17,15 +17,14 @@ const MenSingle = () => {
   return (
     <div className='single-page-section'>
         <div className='single-page-body'>
-        <div>
+        <div className='single-page-img'>
             <img src={product.image} alt={product.description}/>
         </div>
-        <div>
-            <h2>{product.brand}</h2>
-            <h2>{product.model}</h2>
-            <h2>{product.description}</h2>
-            <h1>{product.price}</h1>
-            <button onClick={()=>{dispatch(addToCart(product))}}>add to cart</button>
+        <div className='single-page-content'>
+            <h2>{product.brand} {product.model}</h2>
+            <h2 className='discription'>{product.description}</h2>
+            <h1>${product.price}</h1>
+            <button className='single-page-btn' onClick={()=>{dispatch(addToCart(product))}}>add to cart</button>
         </div>
     </div>
     </div>
