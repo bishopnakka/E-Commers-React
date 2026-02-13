@@ -17,7 +17,9 @@ const MenSingle = () => {
     }
 
     const handleCart=()=>{
-        dispatch(addToCart(product))
+        dispatch(addToCart({
+            ...product,cartId:`men-${product.id}`
+        }))
         navigate("/cart")
     }
   return (

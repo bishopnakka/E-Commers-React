@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux'
 import { addToCart } from '../redux/ReduxSlice'
 
 const WomenSingle = () => {
-    const disptch=useDispatch()
+    const dispatch=useDispatch()
     const navigate=useNavigate()
     const {id}=useParams()
     const product=womanData.find(p=>p.id === id)
@@ -16,7 +16,9 @@ const WomenSingle = () => {
         );
     }
         const handleCart=()=>{
-            dispatch(addToCart(product))
+            dispatch(addToCart({
+                ...product,cartId:`woman-${product.id}`
+            }))
             navigate("/cart")
         }
   return (

@@ -16,7 +16,9 @@ const FridgeSingle = () => {
         );
     }
     const handleCart=()=>{
-        dispatch(addToCart(product))
+        dispatch(addToCart({
+            ...product,cartId:`fridge-${product.id}`
+        }))
         navigate("/cart")
     }
   return (

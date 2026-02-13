@@ -16,14 +16,16 @@ const TvSingle = () => {
         );
     }
         const handleCart=()=>{
-            dispatch(addToCart(product))
+            dispatch(addToCart({
+                ...product,cartId:`tv-${product.id}`
+            }))
             navigate("/cart")
         }
   return (
     <div className='single-page-section'>
         <div className='single-page-body'>
         <div className='single-page-img'>
-            <img src={product.image} alt={product.description}/>
+            <img src={product.image} alt={product.description && "image is loading... click add to cart button to if you wnat this product" }/>
         </div>
         <div className='single-page-content'>
             <h2>{product.brand} {product.model}</h2>

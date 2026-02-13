@@ -16,7 +16,9 @@ const MobileSingle = () => {
         );
     }
         const handleCart=()=>{
-            dispatch(addToCart(product))
+            dispatch(addToCart({
+                ...product,cartId:`mobile-${product.id}`
+            }))
             navigate("/cart")
         }
   return (

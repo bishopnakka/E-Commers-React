@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import './checkout.css'
-import axios from 'axios';
+import api from '../api'
 import { clearCart } from '../redux/ReduxSlice';
 
 const CheckoutPage = () => {
@@ -13,7 +13,7 @@ const CheckoutPage = () => {
   const [address,setAddress]=useState("");
 
   const handlePayment = async()=>{
-    const res=await axios.post("http://localhost:5006/create-order",{
+    const res=await api.post("/create-order",{
         amount:Math.round(total)
     })
     const options={
@@ -39,7 +39,7 @@ const CheckoutPage = () => {
         {cart.map(p=>(
          <p key={p.id}>{p.model} x {p.qty}</p>
         ))}
-        <h2>Total: {total}</h2>
+        <h2>Total: {total.toFixed(2)}</h2>
         <button onClick={handlePayment}>pay now</button>
     </div>
   )

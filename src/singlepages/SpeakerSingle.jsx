@@ -15,7 +15,9 @@ const SpeakerSingle = () => {
         );
     }
         const handleCart=()=>{
-            dispatch(addToCart(product))
+            dispatch(addToCart({
+                ...product,cartId:`speaker-${product.id}`
+            }))
             navigate("/cart")
         }
   return (

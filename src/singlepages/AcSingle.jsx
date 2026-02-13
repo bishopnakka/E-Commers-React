@@ -16,7 +16,9 @@ const AcSingle = () => {
         );
     }
     const handleCart=()=>{
-        dispatch(addToCart(product))
+        dispatch(addToCart({
+            ...product,cartId:`ac-${product.id}`
+        }))
         navigate("/cart")
     }
   return (

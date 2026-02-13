@@ -8,10 +8,10 @@ const ReduxSlice=createSlice({
     reducers:{
         addToCart:(state,action)=>{
             const item= action.payload
-            const exist=state.items.find(i=> i.id === item.id)
+            const exist=state.items.find(i=> i.cartId === item.cartId)
             
             if(exist){
-                exist.qty + 1;
+                exist.qty += 1;
             }else{
                 state.items.push({...item,qty:1})
             }
