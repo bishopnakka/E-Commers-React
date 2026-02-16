@@ -7,7 +7,10 @@
     top: 80px;
     z-index: 1000;
     overflow: scroll;
-    scrollbar-width: none;
+    scrollbar-width: none;  
+}
+.box-section h3:hover{
+   color: rgb(213, 212, 233); 
 }
 .box-section h3{
     color: rgb(155, 150, 218);

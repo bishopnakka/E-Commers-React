@@ -16,8 +16,7 @@ const Home = () => {
         <FridgePage/>
         <TvPage/>
         <AcPage/>
-        <SpeakerPage/>
-      
+        <SpeakerPage/>  
     </div>
   )
 }

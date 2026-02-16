@@ -30,7 +30,7 @@ const Navbar = () => {
 
       <div className='nav-cart'>
         <Link to='/cart'>
-        Cart <span>[{ cartItems.length}]</span>
+        <img src="https://cdn-icons-png.flaticon.com/512/3081/3081986.png" alt="" /><span>{cartItems.length}</span>
         </Link>
       </div>
 

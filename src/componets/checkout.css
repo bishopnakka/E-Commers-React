@@ -6,8 +6,9 @@
 }
 .checkout-body input{
     background-color: rgba(0, 0, 255, 0.238);
-    width: auto;
+    width: 300px;
     height: 10px;
+    margin-bottom: 10px;
 }
 .checkout-body input:focus{
     padding: 5px;
@@ -18,5 +19,53 @@
     border: 3px solid rgb(45, 74, 199);
 }
 .checkout-body h2{
-    color: rgb(1, 1, 77);
+    color: rgb(2, 2, 48);
+    width: 300px;
+    border: 0.5px solid rgba(80, 56, 20, 0.121);
+    padding: 3px;
+    font-size: 30px;
+}
+.checkout-body h1{
+    color: rgb(12, 1, 72);
+    font-size: 45px;
+}
+.checkout-body button{
+    width: 100px;
+    padding: 5px;
+    color: rgb(4, 46, 71);
+    border:0.5px solid rgb(4, 118, 159);
+}
+.checkout-body:hover{
+    background-color: rgb(195, 195, 196);
+}
+.checkout-body p{
+    border: 0.5px solid rgba(128, 128, 128, 0.504);
+    padding: 4px;
+    width: 300px;
+    word-wrap: break-word;
+    line-height: 1.2;
+    margin:2px 0px 1px 0px;
+    color: black;
+}
+
+@media (max-width:480px){
+    .checkout-body h1{
+        font-size: 30px;
+    }
+    .checkout-body input{
+        width: 200px;
+    }
+    .checkout-body h2{
+        font-size: 20px;
+        width: 200px;
+    }
+    .checkout-body p{
+        font-size: 16px;
+        width: 200px;
+    }
+    .checkout-body button{
+        padding: 3px;
+        width: 70px;
+    }
+
 }

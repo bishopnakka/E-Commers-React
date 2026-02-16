@@ -20,7 +20,7 @@ const MobilePage = () => {
         <img src={item.image} alt={item.description}/>
         </Link>
         <h2>{item.company}</h2>
-        <h2>{item.model}</h2>
+        <h3>{item.model}</h3>
         {/* <h3>$ {item.price}</h3> */}
         </div>
       )

@@ -26,6 +26,7 @@ const CheckoutPage = () => {
         handler:function(response){
             alert("payment successfull"),
             dispatch(clearCart())
+            console.log(response)
         }
     }
     const razor=new window.Razorpay(options)
