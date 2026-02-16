@@ -36,7 +36,7 @@
     border:0.5px solid rgb(4, 118, 159);
 }
 .checkout-body:hover{
-    background-color: rgb(195, 195, 196);
+    background-color: rgba(159, 159, 231, 0.19);
 }
 .checkout-body p{
     border: 0.5px solid rgba(128, 128, 128, 0.504);
