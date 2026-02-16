@@ -47,6 +47,13 @@
     margin:2px 0px 1px 0px;
     color: black;
 }
+.payment-result p{
+    border: none;
+    color: rgb(101, 7, 87);
+}
+.payment-result h3{
+    color: rgb(6, 108, 167);
+}
 
 @media (max-width:480px){
     .checkout-body h1{
