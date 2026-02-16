@@ -17,7 +17,7 @@ const TvPage = () => {
       return(
       <div className='menpage-body' key={item.id}>
         <Link to={`/tv/${item.id}`}>
-        <img src={item.image} alt={item.category}/>
+        <img src={item.image} alt={item.category} loading='lazy' className='product-img'/>
         </Link>
         <h2>{item.brand}</h2>
         <h2>{item.model}</h2>

@@ -17,7 +17,7 @@ const AcPage = () => {
           return(
           <div className='menpage-body' key={item.id}>
             <Link to={`/ac/${item.id}`}>
-            <img src={item.image} alt={item.description} />
+            <img src={item.image} alt={item.description} loading='lazy' className='product-img' />
             </Link>
             <h2>{item.company}</h2>
             <h2>{item.model}</h2>

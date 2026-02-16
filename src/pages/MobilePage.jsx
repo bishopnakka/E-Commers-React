@@ -17,7 +17,7 @@ const MobilePage = () => {
       return(
       <div className='menpage-body' key={item.id}>
         <Link to={`/mobile/${item.id}`}>
-        <img src={item.image} alt={item.description}/>
+        <img src={item.image} alt={item.description} loading='lazy' className='product-img'/>
         </Link>
         <h2>{item.company}</h2>
         <h3>{item.model}</h3>
