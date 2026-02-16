@@ -71,23 +71,24 @@
 
 @media (max-width:480px){
     .single-page-section{
-        margin: 5px;
+        margin: 1px;
     }
     .single-page-body{
         height: 280px;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
+        width: 100%;
+        border: 1px solid black;
     }
     .single-page-img{
         height: 130px;
-        width: 200px;
+        width: 150px;
     }
     .single-page-img img{
-        width: fit-content;
         height: 130px;
+        width: 100%;
     }
     .single-page-content{
         padding: 0px;
         font-size: 8px;
-        width: fit-content;
     }
 }
