@@ -22,7 +22,7 @@ const TvSingle = () => {
             navigate("/cart")
         }
   return (
-    <div className='single-page-section'>
+    <div className='single-page-section' id={product.id}>
         <div className='single-page-body'>
         <div className='single-page-img'>
             <img src={product.image} alt={product.description && "image is loading... click add to cart button to if you wnat this product" }/>

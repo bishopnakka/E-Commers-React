@@ -22,7 +22,7 @@ const AcSingle = () => {
         navigate("/cart")
     }
   return (
-    <div className='single-page-section'>
+    <div className='single-page-section' id={product.id}>
         <div className='single-page-body'>
         <div className='single-page-img'>
             <img src={product.image} alt={product.description}/>
