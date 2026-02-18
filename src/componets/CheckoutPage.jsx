@@ -30,10 +30,9 @@ const CheckoutPage = () => {
     setPaymentStatus("PROCESSING")
     setStatusColor("orange")
 
-    const res=await api.post("/create-order",{
-        amount:Math.round(total)
-    })
-    const options={
+  const res=await api.post("/create-order",{amount:Math.round(total)})
+
+  const options={
         key:"rzp_test_SFhwfipyQZkhK7",
         amount:res.data.amount,
         currency:"INR",
@@ -65,7 +64,7 @@ const CheckoutPage = () => {
         <input type="text" placeholder='enter your address' 
         value={address} onChange={e=>setAddress(e.target.value)} required/>
         {cart.map(p=>(
-         <p key={p.id}>{p.model} x {p.qty}</p>
+         <p key={p.id}>{p.model} x ({p.qty})</p>
         ))}
         <h2>Total: {total.toFixed(2)}</h2>
         <button onClick={handlePayment} disabled={loading}>{loading?"processing...":"pay now"}</button>
